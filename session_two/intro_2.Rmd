@@ -104,17 +104,6 @@ i_graph_3 %>% render_graph()
 * sitrep_second.R contains all server code
 * sitrep_second folder contains the answer
 
-## Debugging
-
-* Start simple
-* Make sure your code works outside of Shiny!
-* Use of cat()
-* Breakpoints and browser()
-* Run options(shiny.reactlog = TRUE)
-    * Run
-    * Press Ctrl+F3 for an interactive summary of reactive activity in your application
-    * This has saved me more than once
-
 ## Tabset panels
 
 * Tabset panels are useful if you want multiple outputs but not all on the same page
