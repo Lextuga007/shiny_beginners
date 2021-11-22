@@ -182,8 +182,7 @@ selectInput()
 output$table <- renderDT({
   
   ShinyContactData %>% 
-    filter(Year %in% input$year,
-           Status %in% input$status) %>%
+    filter(Year %in% input$year) %>%
     group_by(Month, Group1) %>% 
     summarise(count = n()) %>% 
     ungroup() %>% 
