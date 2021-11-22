@@ -1,6 +1,6 @@
 # Shiny Beginners Training
 
-Shiny training for relatively novice R users.
+Shiny training for relatively novice R users. A more advanced Shiny training course is on the NHS-R Community GitHub https://github.com/nhs-r-community/shiny-training which covers much of this course again but with a little more detail.
 
 ## Preparation
 
